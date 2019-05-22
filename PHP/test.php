@@ -12,8 +12,10 @@ if($age < 18 ){
     echo "<br> Trẻ em" ;
 }else if ($age <30){
     echo "<br> Thanh niên " ;
-}else {
+}else if ($age <50 ){
     echo "<br> Trung niên" ;
+}else {
+    echo "<br> Người già" ;
 }
 ?>
 </body>
