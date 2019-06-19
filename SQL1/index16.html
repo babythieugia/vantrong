@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<pre>
+    Câu lệnh gom nhóm
+    Group by
+
+    câu lệnh group by thường được dùng để gom các giá trị giống nhau trong các cột
+
+    VD : tìm mỗi khách hàng đến từ 1 quốc gia
+
+    câu lệnh group by thường được dùng trong các hàm sau :
+
+    (count , max, min , sum , avg ) để gom nhóm 1 hay nhiều cột
+
+    VD1: tính tổng số khách hàng đến từ các thành phố trong bảng customer sắp xếp theo thứ tự giảm dần
+     SELECT city,COUNT(id) AS tongso FROM customers GROUP BY city ORDER BY tongso DESC
+
+    Bài tập : đếm tổng số khách hàng có cùng nghề nghiệp ( job_title ) và sắp xếp các nghề nghiệp theo thứ tự giảm dần
+
+</pre>
+</body>
+</html>
